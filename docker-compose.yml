@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+ web:
+  build: .
+    #images: "semeret/demoapp:latest"
+  ports:
+   - "8080:8081"
+  
